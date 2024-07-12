@@ -1,15 +1,15 @@
 #Demostração do uso de operadores
-X = int(input("Digite um número: "))
-Y = int(input("Digite um número: "))
+x = int(input("Digite um número: "))
+y = int(input("Digite um número: "))
 
-SOMA =  X + Y
+SOMA =  x + y
 print("O resultao da soma é:", SOMA)
 
-SUBTRACAO = X - Y
+SUBTRACAO = x - y
 print("O resultado da subtração  é:", SUBTRACAO)
 
-MULTIPLICACAO = X * Y
+MULTIPLICACAO = x * y
 print("O resultado da multiplicação é:", MULTIPLICACAO)
 
-DIVISAO = X / Y
+DIVISAO = x / y
 print("O resultado da divisão é:", DIVISAO)
