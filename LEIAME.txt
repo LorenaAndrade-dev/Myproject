@@ -1,0 +1,9 @@
+Github foi criado em 2008, mas a compania foi criada um ano antes, em São Francisco
+Em um ano online, alcançou a marca de 46,000 repositorios publicos, no mesmo ano o site teve 100,00 usuários.
+Em 2010, Github já possuia 1 milhão de repositorios e esse numero dobrou um ano depois.
+Em 2015,foi aberto um escritório no Japão,o primeir fora dos Estados Unidos.
+Em 2018 foi comprado pela microsoft no mes de junho por 7.5 bilhões
+
+
+
+Uma alternativa para github= Gogs (MIT): o segundo colocado é bem mais simples que o Gitlab, mas mesmo assim consegue oferecer uma boa gama de recursos, aproximando-se bastante das funções mais importantes do Github, inclusive na interface de usuário web.Gogs (MIT): o segundo colocado é bem mais simples que o Gitlab, mas mesmo assim consegue oferecer uma boa gama de recursos, aproximando-se bastante das funções mais importantes do Github, inclusive na interface de usuário web.
