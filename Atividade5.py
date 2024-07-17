@@ -39,8 +39,8 @@ match escala:
         fah =(temp-273) * 1,8 + 32
         print(f"O resultado da conversão de Kelvin para Celsius é de {celsius} e para Fahrenheit é de {fah}")
     case 3:
-        celsius = (temp - 32)/ 1,8
-        kelvin = (temp -32)*5/9 + 273
+        celsius = (temp - 32) * 1,8
+        kelvin = (temp -32) / 1,8 + 273
         print(f" O resultado da conversão de Fahrenheit para Celsiu é {celsius} e para Kelvin é de {kelvin}")
     case _:
         print("Opção inválida")
