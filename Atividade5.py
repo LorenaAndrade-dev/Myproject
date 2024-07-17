@@ -22,6 +22,9 @@ print(f"O valor convertido de Fahrenheit para celsius é de : {celsius}")
 print(f"O valor convertido de Fahrenheit para Kelvin é de {kelvin}")
 
 
+# Refinamento do código
+
+
 print("Qual conversão você deseja fazer?")
 escala = int(input("1. Celsius / 2. Kelvin / 3.Fahrenheit" ))
 temp= int(input("Digite o valor da temperatura:"))
