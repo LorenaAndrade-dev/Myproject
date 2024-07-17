@@ -21,3 +21,24 @@ kelvin = (temp-32)*5/9+273
 print(f"O valor convertido de Fahrenheit para celsius é de : {celsius}")
 print(f"O valor convertido de Fahrenheit para Kelvin é de {kelvin}")
 
+
+print("Qual conversão você deseja fazer?")
+escala = int(input("1. Celsius / 2. Kelvin / 3.Fahrenheit" ))
+temp= int(input("Digite o valor da temperatura:"))
+
+match escala:
+    case 1:
+        kelvin = temp + 273
+        fah = 1,8 * temp +32
+        print(f"O resultado da coversão de Celsius para Kelvin é de {kelvin} e para Fahrenheit é de {fah}")
+    case 2:
+        celsius = temp -273
+        fah =(temp-273) * 1,8 + 32
+        print(f"O resultado da conversão de Kelvin para Celsius é de {celsius} e para Fahrenheit é de {fah}")
+    case 3:
+        celsius = (temp - 32)/ 1,8
+        kelvin = (temp -32)*5/9 + 273
+        print(f" O resultado da conversão de Fahrenheit para Celsiu é {celsius} e para Kelvin é de {kelvin}")
+    case _:
+        print("Opção inválida")
+
