@@ -11,7 +11,7 @@ print(f"A conversão de Celsius para Fahrenheit é{fah}")
 temp = int(input("Digite a temperatura em Kelvin:"))
 celsius = temp - 273
 fah = (temp - 273) * 1,8 + 32
-print(f"O valor convertido de Kelvin para celsius é: {celsius}")
+print(f"O valor convertido de Kelvin para Celsius é: {celsius}")
 print(f"O valor convertido de Kelvin para Fahrenheit é de: {fah}")
 
 #Fahrenheit
