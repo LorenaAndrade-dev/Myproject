@@ -27,10 +27,10 @@ match dia:
 
 
 #2.
-nota1 = int(input("Digite a nota 1 aqui: "))
-nota2 = int(input("Digite a nota 2 aqui: "))
-nota3 = int(input("Digite a nota 3 aqui: "))
-nota4 = int(input("Digite a nota 4 aqui: "))
+nota1 = float(input("Digite a nota 1 aqui: "))
+nota2 = float(input("Digite a nota 2 aqui: "))
+nota3 = float(input("Digite a nota 3 aqui: "))
+nota4 = float(input("Digite a nota 4 aqui: "))
 media = nota1 + nota2 + nota3 + nota4 / 4
 
 if media >= 6:
@@ -38,6 +38,8 @@ if media >= 6:
 else:
     print("Reprovado")
 
+print(f"Sua média é {media}")
+print(type(media))
 
 #3.
 print("Digite seu peso:")
