@@ -27,11 +27,11 @@ match dia:
 
 
 #2.
-print("Digite as notas aqui:")
-nota1 = int(input())
-nota2 = int(input())
-nota3 = int(input())
-media = nota1 + nota2 + nota3 / 3
+nota1 = int(input("Digite a nota 1 aqui: "))
+nota2 = int(input("Digite a nota 2 aqui: "))
+nota3 = int(input("Digite a nota 3 aqui: "))
+nota4 = int(input("Digite a nota 4 aqui: "))
+media = nota1 + nota2 + nota3 + nota4 / 4
 
 if media >= 6:
     print("Aprovado")
