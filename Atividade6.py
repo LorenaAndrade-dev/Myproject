@@ -45,8 +45,8 @@ print(type(media))
 print("Digite seu peso:")
 peso = int(input())
 print("Digite sua altura:")
-altura = int(input())
-icm = peso / altura
+altura = float(input())
+icm = peso / altura ** 2 
 
 if icm > 25:
     print("Acima do peso ideal")
@@ -54,4 +54,3 @@ elif icm < 18:
     print("Abaixo do peso ideal")
 else:
     print("Seu peso está ok.")
-
