@@ -19,7 +19,7 @@ if media < 4:
 elif media >= 4 and media < 6:
     print( "Recuperação")
     recuperacao = float(input("Digite a nota da recuperação:"))
-    if recuperacao < 5:
+    if recuperacao <= 5:
         print ("Reprovado na recuperação")
     else:
         print(" Aprovado na recuperação")
@@ -27,6 +27,11 @@ else:
     print("Aprovado")
 
     
+
+
+
+
+
 #2.
 time = input(" Digite seu time:")
 posicao = int(input(" Digite a posição do seu time:"))
@@ -35,7 +40,7 @@ if posicao == 1:
     print (" Campeão")
 elif posicao >=2 and posicao <=6:
     print("Libertadores")
-elif posicao >= 7 and posicao ==12:
+elif posicao >= 7 or posicao ==12:
     print(" Sul - Americana")
 else:
     print("Rebaixado")
