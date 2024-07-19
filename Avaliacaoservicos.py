@@ -1,8 +1,8 @@
 #Sistema de avaliação de serviços
 
 
-servico = input("O serviço foi feito? ( sim/ não):")
-nota = int(input(" Digite a nota da avaliação (1/5):"))
+servico = input("O serviço foi feito? ( sim / não):")
+nota = int(input(" Digite a nota da avaliação (De 0 até 5):"))
 
 if servico == "Sim" and nota == 1:
     print("O serviço foi péssimo.")
