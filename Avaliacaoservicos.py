@@ -1,22 +1,22 @@
 #Sistema de avaliação de serviços
 
-servico = (input("O serviço foi prestado?")):
 
-if  servico == "não":
-    print(input(" Digite aqui a sua reclamação:"))
-elif servico == "sim":
-    nota = (input(" Digite a sua nota de 1 à 5:")):
-    if nota == 1:
-        print(" Péssimo atendimento")
-    elif nota == 2:
-        print("Ruim")
-    elif nota == 3:
-        print("Razoável")
-    elif nota == 4:
-        print(" Bom")
-    elif nota == 5:
-        print ("Ótimo")
+servico = input("O serviço foi feito? ( sim/ não):")
+nota = int(input(" Digite a nota da avaliação (1/5):"))
 
-
-
+if servico == "Sim" and nota == 1:
+    print("O serviço foi péssimo.")
+elif servico == "sim" and nota == 2:
+    print("O serviço foi ruim.")
+elif servico == "sim" and nota == 3:
+    print("O serviço foi razoável.")
+elif servico == "sim" and nota == 4:
+    print("O serviço foi bom.")
+elif servico == "sim" and nota == 5:
+    print("O serviço foi exelente.")
+else:
+    if servico == "Não" and nota == 0 :
+        print (input(" Digite a sua reclamação:"))
+    else:
+        print("As suas avaliações não fazem sentido")
 print( "Obrigado por escolher nossos serviços!")
