@@ -33,7 +33,7 @@ posicao = int(input(" Digite a posição do seu time:"))
 
 if posicao == 1:
     print (" Campeão")
-elif posicao >=2 and posicao <6:
+elif posicao >=2 and posicao <=6:
     print("Libertadores")
 elif posicao >= 7 and posicao ==12:
     print(" Sul - Americana")
