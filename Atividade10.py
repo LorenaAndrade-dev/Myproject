@@ -1,8 +1,7 @@
 #Contador regressivo para ano novo, e exibir mensagem feliz ano novo.
 
-print("Digite a contagem:")
-numero = int(input())
-
-for i in range (0, numero):
-    print(i)
-print("Feliz ano novo!")
+numero = 0
+while numero <= 0:
+    print("Digite aqui a contagem:")
+    numero = int(input())
+print("Feliz ano novo")

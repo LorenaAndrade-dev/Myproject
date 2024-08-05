@@ -10,5 +10,4 @@ while time != "Paissandu":
         print("Está correto, parabéns!")
     else:
         print("Tente novamente")
-        break
-
+    
