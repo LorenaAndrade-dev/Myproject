@@ -15,3 +15,24 @@ idade = idade + tempo
 altura = altura /2
 print(" A minha idade em 2036 será:", idade)
 print(" A metade da minha altura é:", altura)
+
+print("Qual operação você deseja realizar?")
+print("1. saldo, 2. Depósito, 3. Saque")
+operacao = int(input("Digite uma opção:"))
+saldo= 0
+
+match operacao:
+    case 1:
+        print(f" O saldo total é {saldo}")
+    case 2:
+        deposito = float(input("Digite o valor do depósito:"))
+        saldo = saldo + deposito
+    case 3:
+        saque = int(input("Digite o valor a ser sacado:"))
+        if saque > saldo:
+            print("Não poderá fazer saque maior que o saldo!")
+        else:
+            saldo = saldo - saque
+    case _: 
+        print(" Operação inexistente")
+        
