@@ -14,4 +14,4 @@ original.append("picanha")
 original.append("linguiça")
 
 print("Me mostre o que vai comer?")
-print("Claro! Dá uma conferida", derivada                         )
+print("Claro! Dá uma conferida", derivada)
